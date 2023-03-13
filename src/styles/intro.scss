@@ -1,0 +1,54 @@
+$normalFont: 'Tilt Neon', cursive;
+$introColor: #3bd782;
+$imageColor: #2fb16b;
+$introTextColor: white;
+
+
+.intro{
+    // width:80vw;
+    margin: auto;
+    height:49vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+    background-color: $introColor;
+}
+
+.intro-image{
+    $introImageSize: 15rem;;
+
+    width: $introImageSize;
+    height: $introImageSize;
+    // background-color: $imageColor;    
+
+    img{
+        width: 1.8*$introImageSize;
+        transition: transform .7s ease-in-out;
+    }
+    img:hover {
+        transform: rotate(360deg);
+      }
+
+}
+
+.intro-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-family: $normalFont;
+        color: $introTextColor;
+        font-size: 3.0rem;
+        font-weight: 900;
+    }
+    h3{
+        font-family: $normalFont;
+        color: $introTextColor;
+        font-size: 1.5rem;
+        margin-top: -1.5rem;
+        font-weight: 300;
+    }
+}

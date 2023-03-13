@@ -1,0 +1,72 @@
+$normalFont: 'Tilt Neon', cursive;
+$heroColor: black;
+$heroButtonColor: #2fb16b;
+$size: 20rem;
+
+.hero{
+    width:80vw;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.hero-text{
+    justify-content:space-around;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        font-family: $normalFont;
+        color: $heroColor;
+        font-size: 3.5rem;
+        font-weight: 900;
+    }
+    h3{
+        font-family: $normalFont;
+        color: $heroColor;
+        font-size: 1.5rem;
+        margin-top: -1.5rem;
+        font-weight: 300;
+    }
+}
+
+.hero-button{
+    width:180px;
+    background-color: $heroButtonColor;
+    border-radius: 10px;
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: $normalFont;
+        font-size: 1.2rem;
+        font-weight: 300;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+.hero-image{
+
+
+    width: $size;
+    background-color: $heroButtonColor;
+    height:$size;
+    border-radius: 10% 20%;
+
+    img{
+        width:1.2*$size;
+        margin-left: -3rem;
+    }
+}
+
+.hero-image:hover{
+    
+    img{
+        width: 1.3*$size;
+    }
+}

@@ -1,0 +1,60 @@
+$navBarColor: #e4f6d4; 
+$logoColor: #1c653d;
+$logoColor2: #31b16b;
+$normalFont: 'Tilt Neon', cursive;
+$navBarLinksColor: black;
+
+
+.navbar {
+  background-color: $navBarColor; 
+  height: 4.5rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10rem;
+
+}
+
+.navbar-logo {
+  h2{
+  color: $logoColor;
+  font-family: $normalFont;
+  }
+  span {
+    color:$logoColor2;
+    margin-left:-3px;
+  }
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 25rem;
+  padding: 0 2rem 0 0;
+  a{
+    font-family: $normalFont;
+    color: $navBarLinksColor;
+    text-decoration: none;
+    font-weight:500;
+    
+  }
+  a:hover{
+    color: $logoColor2;
+  }
+  .price{
+    background-color: $logoColor;
+    width: 60px;
+    text-align: center;
+    height: 25px;
+    border-radius: 10px;
+
+    a{
+      color:white;
+    }
+
+
+  }
+  .price:hover{
+    background-color: $logoColor2;
+  }
+}
