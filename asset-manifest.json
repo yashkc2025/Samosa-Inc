@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Samosa-Inc/static/css/main.b8ce3ad0.css",
+    "main.js": "/Samosa-Inc/static/js/main.95dcfb70.js",
+    "static/js/787.8de02763.chunk.js": "/Samosa-Inc/static/js/787.8de02763.chunk.js",
+    "static/media/samosa.png": "/Samosa-Inc/static/media/samosa.3f192fd484a26709d10a.png",
+    "static/media/samosa-basket.png": "/Samosa-Inc/static/media/samosa-basket.4211c46dbfd9b965913d.png",
+    "index.html": "/Samosa-Inc/index.html",
+    "main.b8ce3ad0.css.map": "/Samosa-Inc/static/css/main.b8ce3ad0.css.map",
+    "main.95dcfb70.js.map": "/Samosa-Inc/static/js/main.95dcfb70.js.map",
+    "787.8de02763.chunk.js.map": "/Samosa-Inc/static/js/787.8de02763.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8ce3ad0.css",
+    "static/js/main.95dcfb70.js"
+  ]
+}
